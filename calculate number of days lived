@@ -1,0 +1,4 @@
+from datetime import date
+a=date(2004,8,2)
+b=date(2026,4,28)
+print("no. of days lived",b-a)
