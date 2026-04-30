@@ -1,0 +1,7 @@
+a=int(input("enter the number1: "))
+b=int(input("enter the number2: "))
+while(b!=0):
+    result=a%b
+    a=b
+    b=result
+print("gcd: ",a)
