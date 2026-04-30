@@ -1,0 +1,6 @@
+a="6"
+b="5"
+r1=ord(a)-ord('0')
+e2=ord(b)-ord('0')
+sum=r1+e2
+print(sum)
