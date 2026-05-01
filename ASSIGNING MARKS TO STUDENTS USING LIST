@@ -1,0 +1,13 @@
+names=["fayaz","srujan","arjun","sara","mahesh","varun"]
+marks=[70,40,20,60,10,64]
+p=1
+for i in range(6):
+    if marks[i]>40:
+        print("{}.{} has scored {}%".format(p,names[i],marks[i]))
+        p=p+1
+    elif marks[i]<40:
+        print("{}.{} has fail with {}%".format(p,names[i],marks[i]))
+        p=p+1
+    else:
+        print("{}.{} has border pass {}%".format(p,names[i],marks[i]))
+        p=p+1
