@@ -1,0 +1,25 @@
+def sq():
+    s=int(input("Enter the side in CM: "))
+    print("AREA OF SQUARE IS: ",s*s)
+def rec(a,b):
+    print("AREA OF RECTANGLE IS:",a*b)
+def cle():
+    r=int(input("Enter the radius: "))
+    print("AREA OF CIRCLE IS:",r*r*3.14)
+
+
+while True:
+    print("1.square")
+    print("2.rectangele")
+    print("3.circle")
+    print("4.EXIT")
+    choice=int(input("Enter your choice: "))
+    if choice==1:
+        sq()
+    elif choice==2:
+        rec(20,30)
+    elif choice==3:
+        cle()
+    else:
+        print("EXIT")
+        break
