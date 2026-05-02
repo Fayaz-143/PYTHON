@@ -1,0 +1,8 @@
+name=input("Enter your name: ")
+sal=int(input("Enter salary: "))
+des=input("Enter your position: ")
+taxd={"team lead":10,"manager":20,"fresher":5,"developer":15}
+tax=sal*(taxd[des]/100)
+print("your tax to be paid: ",tax)
+orgsal=sal-tax
+print("your salary after tax: ",orgsal)
