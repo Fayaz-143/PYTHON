@@ -1,0 +1,33 @@
+cou="INDIA"
+class ace:
+    col="ACE ENGG COLLEGE"
+    def give_det(self,a,b,c,d):
+        self.t=a+b+c
+        self.name=d
+    def show(self):
+        print("1 NAME:",self.name)
+        print("2 MARK:",self.t)
+        print("3 COLLEGE:",ace.col)
+        print("4 COUNTRY:",cou)
+class vbit:
+    col="VBIT ENGG COLLEGE"
+    def give_det(self,a,b,c,d):
+        self.t=a+b+c
+        self.name=d
+    def show(self):
+        print("1 NAME:",self.name)
+        print("2 MARK:",self.t)
+        print("3 COLLEGE:",vbit.col)
+        print("4 COUNTRY:",cou)
+a=ace()
+a2=ace()
+b=vbit()
+b2=vbit()
+a.give_det(20,50,60,"Fayaz")
+a2.give_det(15,20,40,"Sumanth")
+b.give_det(30,20,40,"Pranay")
+b2.give_det(15,30,20,"Chanti")
+a.show()
+a2.show()
+b.show()
+b2.show()
