@@ -1,0 +1,13 @@
+class cle:
+    def __init__(self):
+        x=int(input("Enter the radius:"))
+        self.rad=x
+    def disp(self):
+        print("Area of Circle: ",3.14*self.rad**2)
+a=int(input("Enter no. of circles:"))
+circle=[]
+for i in range(a):
+    c=cle()
+    circle.append(c)
+    c.disp()
+    print("***********************")
